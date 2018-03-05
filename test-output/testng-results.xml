@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38704" started-at="2018-03-05T06:42:06Z" finished-at="2018-03-05T06:42:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38704" started-at="2018-03-05T06:42:06Z" finished-at="2018-03-05T06:42:45Z">
+      <class name="com.pages.test_execution">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pages.test_execution@167fdd33]" name="setup" is-config="true" duration-ms="33535" started-at="2018-03-05T12:12:06Z" finished-at="2018-03-05T12:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="select_feeds()[pri:0, instance:com.pages.test_execution@167fdd33]" name="select_feeds" duration-ms="5" started-at="2018-03-05T12:12:39Z" finished-at="2018-03-05T12:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_feeds -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.pages.test_execution@167fdd33]" name="close_browser" is-config="true" duration-ms="5138" started-at="2018-03-05T12:12:39Z" finished-at="2018-03-05T12:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.pages.test_execution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
