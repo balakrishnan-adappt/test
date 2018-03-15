@@ -48,60 +48,11 @@ public class test_execution {
 		WebElement b=upload.get(1);
 		Actions action = new Actions(driver);
 		action.moveToElement(b).click().perform();
-//		WebDriverWait wait=new WebDriverWait(driver,20);
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@type='button']")));
-		
-//		driver.findElement(By.xpath("//button[@type='button']")).click();
-//		Thread.sleep(3000);
-//		driver.findElement(By.xpath("//button[@type='submit']")).click();
-//		System.out.println("profile image updated");
-		
-		
-//		action.moveToElement(driver.findElement(By.xpath("//i[@class=\"fa fa-pencil\"]")));
-//		action.click();
-//		action.build().perform();
-//		Thread.sleep(3000);
-//		action.sendKeys("C:\\Users\\Bala\\Desktop\\Images\\tyrion.jpg");
-//		action.build().perform();
-//		System.out.println("file uploaded");
 		Thread.sleep(3000);
 		
-		
-//		Robot r = new Robot();
-//		String filename= "C:\\Users\\Bala\\Desktop\\Images\\jonsnow.jpg";
-//		type(r,filename);
-//		r.keyPress(KeyEvent.VK_ENTER);
-//		r.keyRelease(KeyEvent.VK_ENTER);
-//		System.out.println("photo chosen");
+
 	}
 
-		public static void type(Robot robot, String FileName){
-			 
-			// Write you own method here to press the keys of the file name on some location on yr computer
-			 
-			robot.keyPress(KeyEvent.VK_F);
-			 
-			robot.keyRelease(KeyEvent.VK_F);
-			 
-			robot.keyPress(KeyEvent.VK_I);
-			 
-			robot.keyRelease(KeyEvent.VK_I);
-			 
-			robot.keyPress(KeyEvent.VK_L);
-			 
-			robot.keyRelease(KeyEvent.VK_L);
-			 
-			robot.keyPress(KeyEvent.VK_E);
-			 
-			robot.keyRelease(KeyEvent.VK_E);
-			 
-			}
-			 
-			
-
-	
-	
-	
 	
 	@BeforeTest
 	public void setup() throws InterruptedException {
