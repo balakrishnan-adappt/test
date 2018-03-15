@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/Bala/Downloads/selenium-server-standalone-3.8.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Bala/Downloads/extentreports-2.41.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
