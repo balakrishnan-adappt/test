@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38214" started-at="2018-03-15T07:17:33Z" finished-at="2018-03-15T07:18:11Z">
+  <suite name="Default suite" duration-ms="45371" started-at="2018-04-05T12:02:12Z" finished-at="2018-04-05T12:02:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38214" started-at="2018-03-15T07:17:33Z" finished-at="2018-03-15T07:18:11Z">
+    <test name="Default test" duration-ms="45371" started-at="2018-04-05T12:02:12Z" finished-at="2018-04-05T12:02:58Z">
       <class name="com.pages.test_execution">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pages.test_execution@4d95d2a2]" name="setup" is-config="true" duration-ms="21680" started-at="2018-03-15T07:17:33Z" finished-at="2018-03-15T07:17:55Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pages.test_execution@4d95d2a2]" name="setup" is-config="true" duration-ms="20477" started-at="2018-04-05T12:02:12Z" finished-at="2018-04-05T12:02:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="select_feeds()[pri:0, instance:com.pages.test_execution@4d95d2a2]" name="select_feeds" duration-ms="11364" started-at="2018-03-15T07:17:55Z" finished-at="2018-03-15T07:18:06Z">
+        <test-method status="PASS" signature="select_feeds()[pri:0, instance:com.pages.test_execution@4d95d2a2]" name="select_feeds" duration-ms="19504" started-at="2018-04-05T12:02:33Z" finished-at="2018-04-05T12:02:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_feeds -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.pages.test_execution@4d95d2a2]" name="close_browser" is-config="true" duration-ms="5127" started-at="2018-03-15T07:18:06Z" finished-at="2018-03-15T07:18:11Z">
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.pages.test_execution@4d95d2a2]" name="close_browser" is-config="true" duration-ms="5376" started-at="2018-04-05T12:02:52Z" finished-at="2018-04-05T12:02:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->

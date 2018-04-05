@@ -20,7 +20,13 @@ public class JSErrorsLogging {
 
 	private WebDriver driver;
 	
-    @Test
+	
+	@Test
+	public void f() {
+		driver.get("https://selfservice-staging.adappt.co.uk/homepage#/");
+	}
+	
+    @BeforeMethod
     public void setUp() {
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\Bala\\Downloads\\geckodriver.exe");        
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
@@ -28,16 +34,15 @@ public class JSErrorsLogging {
         loggingprefs.enable(LogType.BROWSER, Level.ALL);
         capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
         driver = new FirefoxDriver(capabilities);
-        driver.get("https://selfservice-staging.adappt.co.uk/");
-        ExtractJSLogs();
     }
 
-   
+   @AfterMethod
     public void ExtractJSLogs() {
         LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
         for (LogEntry entry : logEntries) {
             System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
         }
+        driver.quit();
     }
 }
     
